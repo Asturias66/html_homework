@@ -10,6 +10,7 @@
     <link type="text/css" rel="stylesheet" href="../css/myworld.css">
 </head>
 <body>
+    <!-- 导航区定义同前 -->
     <nav>
         <div class="inner">
             <div class="navicon">
@@ -60,8 +61,12 @@
             </div>
         </div>
 
+        <!-- 采用inner类凝胶布局 -->
         <div class="inner"> 
-            <div class="side_buttons">
+            <!-- 左边栏区，定义了几个按钮功能页面，但这几个页面尚未实现 ，还有一个未实现的广告区-->
+            <div class="leftside">
+                <!-- 按钮功能区 -->
+                <div class="side_buttons">
                     <a href="">
                         发布记录
                     </a>
@@ -75,69 +80,96 @@
                     </a>
 
 
+                </div>
+
+                <br>
+                <br>
+
+                <!-- 广告栏定义，用<br>标签实现竖排列 -->
+                <div class="leftside_ad">
+                    <h1>广<br>告<br>位<br>招<br>租</h1>
+                </div>
             </div>
+            
 
 
-            <div class="visitors">
-                <table>
-                    <tr>
-                        <td colspan="3">
-                            <span class = "visitorfont">今日访客人数：9人</span>
-                        </td>
-                    </tr>
+            <!-- 右边栏区，定义访客区 -->
+            <div class="rightside">
+                <!-- 访客区 -->
+                <div class="visitors">
+                    <table>
+                        <tr>
+                            <td colspan="3">
+                                <span class = "visitorfont">今日访客人数：9人</span>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                <img src="../images/myworld/visitor1.png" alt="游客1">
+                            </td>
+    
+                            <td>
+                                <img src="../images/myworld/visitor2.png" alt="游客2">
+                            </td>
+                            <td>
+                                <img src="../images/myworld/visitor3.png" alt="游客3">
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                <img src="../images/myworld/visitor4.png" alt="游客4">
+                            </td>
+    
+                            <td>
+                                <img src="../images/myworld/visitor5.png" alt="游客5">
+                            </td>
+                            <td>
+                                <img src="../images/myworld/visitor6.png" alt="游客6">
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                <img src="../images/myworld/visitor7.png" alt="游客7">
+                            </td>
+    
+                            <td>
+                                <img src="../images/myworld/visitor8.png" alt="游客8">
+                            </td>
+                            <td>
+                                <img src="../images/myworld/visitor9.png" alt="游客9">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
 
-                    <tr>
-                        <td>
-                            <img src="../images/myworld/visitor1.png" alt="游客1">
-                        </td>
+                <br>
+                <br>
 
-                        <td>
-                            <img src="../images/myworld/visitor2.png" alt="游客2">
-                        </td>
-                        <td>
-                            <img src="../images/myworld/visitor3.png" alt="游客3">
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            <img src="../images/myworld/visitor4.png" alt="游客4">
-                        </td>
-
-                        <td>
-                            <img src="../images/myworld/visitor5.png" alt="游客5">
-                        </td>
-                        <td>
-                            <img src="../images/myworld/visitor6.png" alt="游客6">
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            <img src="../images/myworld/visitor7.png" alt="游客7">
-                        </td>
-
-                        <td>
-                            <img src="../images/myworld/visitor8.png" alt="游客8">
-                        </td>
-                        <td>
-                            <img src="../images/myworld/visitor9.png" alt="游客9">
-                        </td>
-                    </tr>
-                </table>
+                <!-- 广告栏定义，用<br>标签实现竖排列 -->
+                <div class="leftside_ad">
+                    <h1>广<br>告<br>位<br>招<br>租</h1>
+                </div>
             </div>
+            
 
+            <!-- 中间主块区，用来存放主要内容 -->
             <div class="record_block">
+                <!-- 定义用户头像图标样式 -->
                 <div class="record_icon">
                     <img src="../images/myworld/usericon.png" alt="用户头像">
                 </div>
 
+                <!-- 定义用户ID样式 -->
                 <div class="record_ID">
                     <span>巨天宇</span>
                 </div>
 
+                <!-- 定义所发内容样式 -->
                 <div class="record_text">
-                    <p>今天报名参加了金融双学位辅修，觉得下学期学习压力会很大，希望下学期一切顺利。</p>
+                    <p>今天报名参加了金融双学位辅修，觉得下学期学习压力会很大，希望下学期顺利。</p>
                     <br>
                     <img src="../images/myworld/textimg1.png" alt="表情包">
 
@@ -160,7 +192,7 @@
                 </div>
 
                 <div class="record_text">
-                    <span>今天我成功加入了识意团队，相信在团队中能学到很多东西。</span>
+                    <p>今天我成功加入了识意团队，相信在团队中能学到很多东西。</p>
                     <br>
                     <img src="../images/myworld/textimg3.png" alt="表情包">
                 </div>
@@ -183,7 +215,7 @@
                 </div>
 
                 <div class="record_text">
-                    <p>今天是2019年10月31日，我递交了入党申请书。</p>
+                    <p>今天是2019年10月31日，我递交了入党申请书,希望能通过审核。</p>
                     <br>
                     <img src="../images/myworld/textimg2.png" alt="表情包">
                 </div>

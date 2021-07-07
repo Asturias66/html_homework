@@ -18,11 +18,13 @@ table{
     /* background-color: white; */
 }
 
+/* 定义表格列边框 */
 table td{
     border: 1px solid black;
     border-spacing: 0;
 }
 
+/* 定义表格行边框 */
 table tr{
     border: 1px solid black;
     border-spacing: 0;
@@ -59,14 +61,17 @@ table tr{
     
 }
 
+/* 用来定义课程名行样式 */
 .coursename{
     background-color: #505050;
 }
 
+/* 用来定义课程名行中字体样式 */
 .coursename h2{
     color: white;
 }
 
+/* 定义侧边栏宽度和向左浮动 */
 .sidebook{
     float: left;
     width: 200px;
@@ -84,6 +89,7 @@ table tr{
     border: 2px solid green;
 }
 
+/* 规定图片所占长宽 */
 .book_img{
     width: 200px;
     height: 200px;

@@ -3,12 +3,13 @@ table{
     border-spacing: 0;
 }
 
+/* 定义表格的外边框 */
 table tr td{
     border: 1px solid blue;
 }
 
 .record_block{
-    width: 500px;
+    width: 600px;
     background-color: rgba(182, 211, 255, 0.418);
     text-align: left;
     margin-left: auto;
@@ -44,6 +45,10 @@ table tr td{
     margin-left: 20px;
 }
 
+.record_text p{
+    text-align: left;
+}
+
 
 .record_time{
     text-align: right;
@@ -52,10 +57,34 @@ table tr td{
     padding-bottom: 10px;
 }
 
-.side_buttons{
+.leftside{
     float: left;
     width:145px;
+
+}
+
+.rightside{
+    float: right;
+    width:150px;
+
+}
+
+.side_buttons{
+    width:145px;
     border: 2px solid blue;
+
+    /* 设置框边界线为圆角 */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.leftside_ad{
+    width:145px;
+    border: 2px solid blue;
+    height: 400px;
+    background-color: rgba(182, 211, 255, 0.418);
 
     /* 设置框边界线为圆角 */
     border-top-left-radius: 10px;
@@ -78,7 +107,6 @@ table tr td{
 .side_buttons a{
     padding: 20px 40px;
     background-color: rgba(182, 211, 255, 0.418);
-    /* margin-top: 20px; */
     display: inline-block;
     border-bottom: 1px solid black;
 }
@@ -88,9 +116,8 @@ table tr td{
 }
 
 .visitors{
-    /* width: 120px; */
-    float: right;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+    width: 162px;
     background-color: rgba(182, 211, 255, 0.418);
 }
 
