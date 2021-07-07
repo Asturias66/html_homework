@@ -1,0 +1,98 @@
+/* .study_main{
+    width: 100%;
+    background: linear-gradient(rgba(229, 248, 194, 0.836),silver) ;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    /* background-image: url("../images/study/bookframe.jpg"); */
+/* }  */
+
+/* 指定单元格边界距离 */
+table{
+    border-spacing: 0;
+}
+
+/* 给右边页面设置样式 */
+#rightpage{
+    margin-left: 200px;
+    padding-left: 20px;
+    /* background-color: white; */
+}
+
+table td{
+    border: 1px solid black;
+    border-spacing: 0;
+}
+
+table tr{
+    border: 1px solid black;
+    border-spacing: 0;
+}
+
+/* 用来设置表格中数据较多的列，保证表格简洁美观 */
+.tdintroduction{
+    width: 400px;
+    text-align: left;
+    text-indent: 2em;
+}
+
+/* 用来规定课程表格的样式 */
+.coursetable{
+    width: 980px;
+    text-align: left;
+    text-indent: 2em;
+    border: 1px solid black;
+}
+
+/* 用来规定课程表格的样式 */
+.coursetable_title{
+    text-align: center;
+    
+}
+
+/* .courseintroduction{
+
+} */
+
+/* 用来规定表格的样式 */
+.studytable{
+    border: 1px solid black;
+    
+}
+
+.coursename{
+    background-color: #505050;
+}
+
+.coursename h2{
+    color: white;
+}
+
+.sidebook{
+    float: left;
+    width: 200px;
+    /* border: 1px solid black ; */
+}
+
+.sidebook_title{
+    border: 2px solid green;
+    width: 200px;
+}
+
+.book_block{
+    height: 400px;
+    width: 200px;
+    border: 2px solid green;
+}
+
+.book_img{
+    width: 200px;
+    height: 200px;
+}
+
+.book_introduction{
+    width: 200px;
+    height: 190px;
+    text-indent: 2em;
+    text-align: left;
+    padding-top: 10px;
+}

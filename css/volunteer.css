@@ -1,0 +1,58 @@
+/* 设置志愿者界面的块元素样式 */
+.container_volunteer_block{
+    position: relative;
+    width: 550px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    float: left;
+    background-color: white;
+    border: 5px solid #ddd;
+    padding: 5px;
+
+    /* 设置框边界线为圆角 */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* 设置最后一块的样式，防止右外边距出错 */
+.container_volunteer_block_last{
+    position: relative;
+    width: 550px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    /* padding-left: 20px; */
+    float: left;
+    background-color: white;
+    border: 5px solid #ddd;
+    padding: 5px;
+
+    /* 设置框边界线为圆角 */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.container_volunteer_block_up{
+    position: relative;
+    width:  550px;
+    height: 370px;
+    background-color: red;
+}
+
+.container_volunteer_block_down{
+    position: relative;
+    width: 550px;
+    height: 150px;
+    /* background-color: blue; */
+    padding-top: 10px;
+}
+
+.container_volunteer_block_down p{
+    text-align: left;
+    text-indent: 2em;
+}
