@@ -114,7 +114,8 @@ nav ul li a:hover{
 
 header{
     width: 100%;
-
+    text-align: center;
+    height: auto;
 }
 
 
